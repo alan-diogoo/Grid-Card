@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        .cont {
+            width: 100%;
+            height: 280px;
+            margin: 8px 0px 8px 0px;
+            border-radius: 12px;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+        }
+
+        .bg-img {
+            width: 100%;
+            height: 280px;
+            overflow: hidden;
+        }
+
+        .bg-img img {
+            object-fit: cover;
+            width: 100%;
+            height: 280px;
+        }
+
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: linear-gradient(0deg, rgba(0,0,0,0.8743872549019608) 0%, rgba(0,0,0,0) 100%);
+            padding: 10px;
+        }
+
+        .action {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            color: #ffffff;
+            font-size: 1.2rem;
+            font-family: inherit;
+            padding: 8px;
+            font-weight: 300;
+            gap: 1rem;
+            text-decoration: none;
+            height: 100%;
+            word-wrap: break-word;
+        }
+
+        .icon-seta {
+            font-size: 1.7rem;
+            padding-right: 10px;
+
+        }
+
+        .title-h2 {
+            font-size: 2.2rem;
+        }
+
+        @media (max-width: 576px) {
+            .cont {
+                width: 100%;
+                height: 240px;
+            }
+
+            .bg-img {
+                width: 100%;
+                height: 240px;
+            }
+
+            .bg-img img {
+                width: 100%;
+                height: 240px;
+            }
+
+            .title-h2 {
+            font-size: 1.6rem;
+        }
+            .icon-seta {
+            font-size: 1.7rem !important;
+            padding-right: 6px;
+
+        }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-6 ">
+            <a class="cont" href="https://www.kia.com.br/stonic"
+                style="text-decoration: none;">
+                <div class="bg-img">
+                    <img class="link-hover-animation" src="https://www.kia.com.br/media/kia-banner-stonic-cinza-amarelo/1"
+                        alt="Stonic">
+                    <div class="overlay">
+                        <div class="action">
+                            <span class="title-h2">Stonic</span>
+                            <span class="icon-seta" aria-hidden="true"> → </span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="col-6 ">
+            <a class="cont" href="https://www.kia.com.br/sportage"
+                style="text-decoration: none;">
+                <div class="bg-img">
+                    <img class="link-hover-animation"
+                        src="https://www.kia.com.br/media/kia-sportage-hibrido-desempenho/1"
+                        alt="sportage">
+                    <div class="overlay">
+                        <div class="action">
+                            <span class="title-h2">Sportage</span>
+                            <span class="icon-seta" aria-hidden="true"> → </span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-6 ">
+            <a class="cont" href="https://www.kia.com.br/niro"
+                style="text-decoration: none;">
+                <div class="bg-img">
+                    <img class="link-hover-animation" src="https://www.kia.com.br/media/kia-niro-banner-estrada-frente/1"
+                        alt="Niro">
+                    <div class="overlay">
+                        <div class="action">
+                            <span class="title-h2">Niro</span>
+                            <span class="icon-seta" aria-hidden="true"> → </span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="col-6 ">
+            <a class="cont" href="https://www.kia.com.br/carnival"
+                style="text-decoration: none;">
+                <div class="bg-img">
+                    <img class="link-hover-animation"
+                        src="https://www.kia.com.br/media/kia-carnival-frontal-lareral-logo-novo/1"
+                        alt="Carnival">
+                    <div class="overlay">
+                        <div class="action">
+                            <span class="title-h2">Carnival</span>
+                            <span class="icon-seta" aria-hidden="true"> → </span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-6 ">
+            <a class="cont" href="https://www.kia.com.br/sorento"
+                style="text-decoration: none;">
+                <div class="bg-img">
+                    <img class="link-hover-animation"
+                        src="https://www.kia.com.br/media/kia-sorentos-exterior-lateral-frontal/1"
+                        alt="Soreto">
+                    <div class="overlay">
+                        <div class="action">
+                            <span class="title-h2">Soreto</span>
+                            <span class="icon-seta" aria-hidden="true"> → </span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-6 ">
+            <a class="cont" href="https://www.kia.com.br/bongo"
+                style="text-decoration: none;">
+                <div class="bg-img">
+                    <img class="link-hover-animation"
+                        src="https://www.kia.com.br/media/kia-bongo-estrada-4x4-/3"
+                        alt="Bongo">
+                    <div class="overlay">
+                        <div class="action">
+                            <span class="title-h2">Bongo</span>
+                            <span class="icon-seta" aria-hidden="true"> → </span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-6 ">
+            <a class="cont" href="https://www.kia.com.br/cerato"
+                style="text-decoration: none;">
+                <div class="bg-img">
+                    <img class="link-hover-animation"
+                        src="https://www.kia.com.br/media/kia-cerato-lateral-detalhe/3"
+                        alt="Cerato">
+                    <div class="overlay">
+                        <div class="action">
+                            <span class="title-h2">Cerato</span>
+                            <span class="icon-seta" aria-hidden="true"> → </span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
